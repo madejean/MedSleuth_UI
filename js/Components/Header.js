@@ -2,11 +2,8 @@ import React from 'react';
 
 class Header extends React.Component {
   render() {
-  //  var borderColor = '#e6e3e3';
     var styles = {
       header : {
-        //borderRadius: '3px',
-      //  border: '1px solid' + borderColor,
         height: '100px',
         marginLeft: '5px',
         marginRight: '5px',

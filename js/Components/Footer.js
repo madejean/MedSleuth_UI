@@ -5,13 +5,10 @@ class Footer extends React.Component {
     var borderColor = '#e6e3e3';
     var styles = {
       footer : {
-        //borderRadius: '3px',
-        //border: '1px solid ' + borderColor,
         height: '40px',
         marginLeft: '10px',
         padding: '0px 10px 0px 10px',
         display: 'block',
-        //background: '#f5f5eb',
         bottom: '0px',
         }
       }
@@ -23,5 +20,4 @@ class Footer extends React.Component {
     );
   }
 }
-
 export default Footer;
