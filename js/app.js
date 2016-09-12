@@ -6,6 +6,7 @@ import Header from './Components/Header.js';
 import Body from './Components/Body.js';
 import Footer from './Components/Footer.js';
 
+/*------------------[ENTIRE APP]-----------------*/
 ReactDOM.render(
   (
     <div>

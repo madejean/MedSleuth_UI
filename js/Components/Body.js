@@ -1,6 +1,8 @@
 import React from 'react';
 
+/*------------------[MAIN LAYOUT]-----------------*/
 class Body extends React.Component {
+/*handles the user clicking on buttons*/
   yes () {
     alert('cliked yes');
     console.log('the user cliked yes');
@@ -10,6 +12,7 @@ class Body extends React.Component {
     console.log('the user cliked no');
   }
   render () {
+    /*------------------[STYLING]-----------------*/
     var borderColor = '#e6e3e3';
     var styles = {
       body : {
@@ -22,7 +25,7 @@ class Body extends React.Component {
       FormBox: {
         border: '3px solid' + borderColor,
         height: '400px',
-        padding: '10px 30px 10px 20px',
+        padding: '10px 50px 10px 20px',
       },
       questions: {
         display: 'flex',
@@ -42,14 +45,13 @@ class Body extends React.Component {
         fontFamily: 'Open Sans',
         fontSize: '12pt',
         color: '#e56100',
-        //width: '600px',
         float: 'left',
       },
       p: {
         overflow: 'hidden',
         display: 'block',
         fontFamily: 'Open Sans',
-        fontSize: '12pt',
+        fontSize: '11pt',
         color: 'black',
         width:'600px',
       },
@@ -64,6 +66,7 @@ class Body extends React.Component {
       },
     }
     return (
+      /*------------------[APP BODY]-----------------*/
       <div style={styles.body}>
         <h1 style={styles.h1}>{this.props.title}</h1>
         <div style={styles.FormBox}>
