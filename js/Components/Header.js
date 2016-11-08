@@ -20,7 +20,7 @@ class Header extends React.Component {
 
   return (
     <div style={styles.header}>
-      <img src='http://demo.webprepare.org/media/logo.png' style={styles.logo}/>
+      <img src='http://www.medsleuth.com/wp-content/uploads/2010/08/logo.png' style={styles.logo}/>
     </div>
     )
   }

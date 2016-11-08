@@ -57,8 +57,8 @@ class Body extends React.Component {
       },
 
       buttons: {
-        width: '60px',
-        height: '50px',
+        width: '50px',
+        height: '40px',
         color: '#FFF',
         background: '#7bab96',
         display: 'block',
